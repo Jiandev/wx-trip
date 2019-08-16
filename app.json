@@ -1,12 +1,33 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/index/index",
+    "pages/user/user"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "旅游",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#1B81F5",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "旅游",
+        "iconPath": "/assets/tabbar/index.png",
+        "selectedIconPath": "/assets/tabbar/index_active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "/assets/tabbar/user.png",
+        "selectedIconPath": "/assets/tabbar/user_active.png"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }

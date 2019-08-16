@@ -4,7 +4,16 @@ Page({
    * 页面的初始数据
    */
   data: {
-    
+    current:"way"
+  },
+
+  handleChange({detail}){
+    this.setData({
+      current:detail.key
+    })
+  },
+  checkPlace(e){
+    console.log(e)
   },
 
   /**

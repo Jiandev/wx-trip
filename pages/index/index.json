@@ -1,3 +1,7 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "i-tabs": "/iview/tabs/index",
+    "i-tab": "/iview/tab/index",
+    "i-icon": "/iview/icon/index"
+  }
 }

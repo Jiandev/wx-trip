@@ -1,0 +1,48 @@
+.header {
+  margin: 0 0 30rpx 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.place {
+  font-size: 60rpx;
+  font-weight: 500;
+  display: flex;
+  margin: 100rpx 0 0 0;
+}
+
+.text-line {
+  height: 100rpx;
+  width: 18rpx;
+  border-radius: 10rpx;
+  background-color: #1b81f5;
+  margin: 0 20rpx 0 0;
+}
+
+.temperature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.temperature >text {
+  font-size: 24rpx;
+  margin: 0 20rpx 0 0;
+  font-weight: 800;
+}
+
+.temperature >image {
+  width: 60rpx;
+  height: 60rpx;
+}
+
+.bg-temp {
+  background-color: #1b81f5;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bg-temp >text {
+  font-size: 30rpx;
+  margin: 0 50rpx 0 50rpx;
+}

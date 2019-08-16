@@ -1,0 +1,20 @@
+<view class="header">
+  <view class="place" bindtap="checkPlace">
+    <view class="text-line"></view>
+    <text>成都</text>
+    <i-icon type="unfold" size="25" color="#80848f" />
+  </view>
+  <view class="temperature">
+    <image src="/assets/tabbar/index.png"></image>
+    <view class="bg-temp">
+      <text>10-28℃</text>
+    </view>
+    <text>好评度：99%</text>
+  </view>
+</view>
+<i-tabs current="{{ current }}" bindchange="handleChange">
+  <i-tab key="way" title="线路"></i-tab>
+  <i-tab key="strategy" title="攻略"></i-tab>
+  <i-tab key="food" title="食品"></i-tab>
+  <i-tab key="commodity" title="日用品"></i-tab>
+</i-tabs>
