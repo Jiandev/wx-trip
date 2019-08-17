@@ -1,6 +1,7 @@
 /**
 头部组件
 */
+
 .header {
   margin: 20rpx 0 20rpx 0;
   display: flex;
@@ -18,7 +19,7 @@
   height: 100rpx;
   width: 18rpx;
   border-radius: 10rpx;
-  background-color: #6BC099;
+  background-color: #6bc099;
   margin: 0 20rpx 0 0;
 }
 
@@ -40,7 +41,7 @@
 }
 
 .bg-temp {
-  background-color: #6BC099;
+  background-color: #6bc099;
   display: flex;
   justify-content: flex-end;
 }
@@ -53,53 +54,86 @@
 /**
 线路
 */
-.container-way{
+
+.container-way {
   margin: 30rpx;
 }
 
-.way-header{
+.way-header {
   display: flex;
 }
 
-.bg-way-header-text{
+.bg-way-header-text {
   margin: 0 50rpx 20rpx 0;
-  background-color: #6BC099;
+  background-color: #6bc099;
   border-radius: 10rpx;
   padding: 10rpx 30rpx;
 }
 
-.bg-way-header-text >text{
+.bg-way-header-text >text {
   font-size: 36rpx;
-  color: #ffffff;
+  color: #fff;
   font-weight: 520;
 }
 
-.scenic-wrap{
+.scenic-wrap {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-.scenic-item{
+.scenic-item {
   width: 48%;
   margin: 20rpx 0 20rpx 0;
   display: flex;
   flex-direction: column;
 }
 
-.scenic-item >image{
+.scenic-item >image {
   width: 100%;
   border-radius: 15rpx;
 }
 
-.scenic-item >text{
+.scenic-item >text {
   margin: 10rpx 0 10rpx 0;
 }
 
+/**
+攻略
+*/
 
-/* 隐藏滚动条 */
-::-webkit-scrollbar{
-    width: 0;
-    height: 0;
-    color: transparent;
+.container-strategy {
+  margin: 30rpx;
+}
+
+.strategy-item {
+  margin: 0 0 30rpx 0;
+}
+
+.strategy-img {
+  position: relative;
+}
+
+.strategy-img >image {
+  border-radius: 15rpx;
+  width: 100%;
+  height: 300rpx;
+}
+
+.strategy-info {
+  position: absolute;
+  bottom: 50rpx;
+  left: 50rpx;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.strategy-title {
+  margin-bottom: 10rpx;
+  font-size: 36rpx;
+}
+
+.strategy-desc {
+  font-size: 28rpx;
 }

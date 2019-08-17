@@ -38,7 +38,15 @@
   </view>
 </view>
 <view class="container-strategy" wx-if="{{current=='strategy'}}">
-  <view>2</view>
+  <navigator class="strategy-item" url="" wx:for="{{5}}" wx:key="index">
+    <view class="strategy-img">
+      <image mode='center' src='/assets/images/img_scenic.png'></image>
+      <view class="strategy-info">
+        <text class="strategy-title">青城山</text>
+        <text class="strategy-desc">青城山旅游攻略旅游指南</text>
+      </view>
+    </view>
+  </navigator>
 </view>
 <view class="container-food" wx-if="{{current=='food'}}">
   <text>3</text>

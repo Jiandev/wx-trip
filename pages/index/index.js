@@ -4,7 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    current:"way"
+    current:"strategy"
   },
 
   handleChange({detail}){
