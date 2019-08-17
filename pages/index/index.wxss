@@ -1,5 +1,8 @@
+/**
+头部组件
+*/
 .header {
-  margin: 0 0 30rpx 0;
+  margin: 20rpx 0 20rpx 0;
   display: flex;
   justify-content: space-between;
 }
@@ -15,7 +18,7 @@
   height: 100rpx;
   width: 18rpx;
   border-radius: 10rpx;
-  background-color: #1b81f5;
+  background-color: #6BC099;
   margin: 0 20rpx 0 0;
 }
 
@@ -27,22 +30,76 @@
 
 .temperature >text {
   font-size: 24rpx;
-  margin: 0 20rpx 0 0;
+  margin: 10rpx 0 0 0;
   font-weight: 800;
 }
 
 .temperature >image {
-  width: 60rpx;
+  width: 85rpx;
   height: 60rpx;
 }
 
 .bg-temp {
-  background-color: #1b81f5;
+  background-color: #6BC099;
   display: flex;
   justify-content: flex-end;
 }
 
 .bg-temp >text {
   font-size: 30rpx;
-  margin: 0 50rpx 0 50rpx;
+  margin: 0 50rpx 0 80rpx;
+}
+
+/**
+线路
+*/
+.container-way{
+  margin: 30rpx;
+}
+
+.way-header{
+  display: flex;
+}
+
+.bg-way-header-text{
+  margin: 0 50rpx 20rpx 0;
+  background-color: #6BC099;
+  border-radius: 10rpx;
+  padding: 10rpx 30rpx;
+}
+
+.bg-way-header-text >text{
+  font-size: 36rpx;
+  color: #ffffff;
+  font-weight: 520;
+}
+
+.scenic-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.scenic-item{
+  width: 48%;
+  margin: 20rpx 0 20rpx 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.scenic-item >image{
+  width: 100%;
+  border-radius: 15rpx;
+}
+
+.scenic-item >text{
+  margin: 10rpx 0 10rpx 0;
+}
+
+
+/* 隐藏滚动条 */
+::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    color: transparent;
 }

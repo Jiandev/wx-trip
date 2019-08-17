@@ -5,7 +5,7 @@
     <i-icon type="unfold" size="25" color="#80848f" />
   </view>
   <view class="temperature">
-    <image src="/assets/tabbar/index.png"></image>
+    <image src="/assets/images/ic_weather.png"></image>
     <view class="bg-temp">
       <text>10-28℃</text>
     </view>
@@ -18,3 +18,31 @@
   <i-tab key="food" title="食品"></i-tab>
   <i-tab key="commodity" title="日用品"></i-tab>
 </i-tabs>
+<view class="container-way" wx-if="{{current=='way'}}">
+  <view class="way-header">
+    <view class="bg-way-header-text">
+      <text>行程天数</text>
+    </view>
+    <view class="bg-way-header-text">
+      <text>价格区间</text>
+    </view>
+  </view>
+  <view class="scenic-wrap">
+    <navigator class="scenic-item" url="" wx:for="{{5}}" wx:key="index">
+      <image mode='widthFix' src='/assets/images/img_scenic.png'></image>
+      <text>青城山</text>
+      <i-tag class="i-tags" name="5A景区" color="red" type="border">
+        5A景区
+      </i-tag>
+    </navigator>
+  </view>
+</view>
+<view class="container-strategy" wx-if="{{current=='strategy'}}">
+  <view>2</view>
+</view>
+<view class="container-food" wx-if="{{current=='food'}}">
+  <text>3</text>
+</view>
+<view class="container-commodity" wx-if="{{current=='commodity'}}">
+  <text>4</text>
+</view>
