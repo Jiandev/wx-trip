@@ -167,3 +167,22 @@
   display: flex;
   align-items: center;
 }
+
+/**
+悬浮按钮
+*/
+.suspend-wrap {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 100rpx;
+  right: 0;
+}
+
+.suspend-wrap image {
+  width: 60rpx;
+  height: 60rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 20rpx 20rpx 0;
+}

@@ -63,3 +63,7 @@
 <view class="container-item" wx-if="{{current=='commodity'}}">
   <text>待定。。。</text>
 </view>
+<view class="suspend-wrap">
+  <image src="/assets/images/ic_menu.png"></image>
+  <image src="/assets/images/ic_collection_round.png"></image>
+</view>
