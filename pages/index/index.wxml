@@ -18,7 +18,7 @@
   <i-tab key="food" title="食品"></i-tab>
   <i-tab key="commodity" title="日用品"></i-tab>
 </i-tabs>
-<view class="container-way" wx-if="{{current=='way'}}">
+<view class="container-item" wx-if="{{current=='way'}}">
   <view class="way-header">
     <view class="bg-way-header-text">
       <text>行程天数</text>
@@ -37,7 +37,7 @@
     </navigator>
   </view>
 </view>
-<view class="container-strategy" wx-if="{{current=='strategy'}}">
+<view class="container-item" wx-if="{{current=='strategy'}}">
   <navigator class="strategy-item" url="" wx:for="{{5}}" wx:key="index">
     <view class="strategy-img">
       <image mode='center' src='/assets/images/img_scenic.png'></image>
@@ -48,9 +48,18 @@
     </view>
   </navigator>
 </view>
-<view class="container-food" wx-if="{{current=='food'}}">
-  <text>3</text>
+<view class="container-item" wx-if="{{current=='food'}}">
+  <view class="food-wrap">
+    <navigator class="food-item" url="" wx:for="{{5}}" wx:key="index">
+      <image mode='widthFix' src='/assets/images/img_food.png'></image>
+      <view class="food-info">
+        <text>冰粉</text>
+        <i-rate disabled="{{true}}" value="{{5}}" size="16"></i-rate>
+      </view>
+      <text>介绍</text>
+    </navigator>
+  </view>
 </view>
-<view class="container-commodity" wx-if="{{current=='commodity'}}">
-  <text>4</text>
+<view class="container-item" wx-if="{{current=='commodity'}}">
+  <text>待定。。。</text>
 </view>

@@ -55,7 +55,7 @@
 线路
 */
 
-.container-way {
+.container-item {
   margin: 30rpx;
 }
 
@@ -87,6 +87,7 @@
   margin: 20rpx 0 20rpx 0;
   display: flex;
   flex-direction: column;
+  border-radius: 15rpx;
 }
 
 .scenic-item >image {
@@ -102,12 +103,9 @@
 攻略
 */
 
-.container-strategy {
-  margin: 30rpx;
-}
-
 .strategy-item {
   margin: 0 0 30rpx 0;
+  border-radius: 15rpx;
 }
 
 .strategy-img {
@@ -136,4 +134,36 @@
 
 .strategy-desc {
   font-size: 28rpx;
+}
+
+/**
+食物
+*/
+
+.food-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.food-item {
+  width: 48%;
+  margin: 20rpx 0 20rpx 0;
+  border-radius: 15rpx;
+}
+
+.food-item >image {
+  width: 100%;
+  border-radius: 15rpx;
+}
+
+.food-item >text {
+  font-size: 24rpx;
+}
+
+.food-info {
+  font-size: 36rpx;
+  font-weight: 520;
+  display: flex;
+  align-items: center;
 }
