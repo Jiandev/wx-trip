@@ -2,7 +2,8 @@
   "pages": [
     "pages/index/index",
     "pages/user/user",
-    "pages/place/place"
+    "pages/place/place",
+    "pages/scenic/scenic"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,160 @@
+.header {
+  display: flex;
+}
+
+.container-swiper {
+  width: 60%;
+  height: 300rpx;
+  border-radius: 15rpx;
+  overflow: hidden;
+  margin: 100rpx 30rpx 0 0;
+}
+
+.container-swiper swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.top-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30rpx;
+}
+
+.txt-title {
+  color: #a35d23;
+  font-size: 20rpx;
+  font-weight: 550;
+}
+
+.txt-scenic {
+  font-size: 40rpx;
+  margin: 10rpx;
+}
+.bg-color{
+  background-color: #B7D99E;
+  opacity: 0.5;
+  height: 200rpx;
+}
+/**
+底部容器
+*/
+.body {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin-top: 450rpx;
+  background-color: #fff;
+  border-radius: 14% 14% 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1rpx solid;
+}
+.body-content{
+  width: 100%;
+}
+.container-content{
+  padding: 50rpx;
+}
+.top-line {
+  background-color: #000000;
+  height: 10rpx;
+  width: 150rpx;
+  margin-top: 15rpx;
+}
+
+.top-menu{
+  margin: 30rpx 0;
+}
+.top-menu text{
+  border: #000000 1rpx solid;
+  border-radius: 15rpx;
+  padding: 8rpx 15rpx;
+  margin-right: 20rpx;
+  font-size: 28rpx;
+  font-weight: 550;
+}
+
+/**
+服务项
+*/
+.body-item{
+  margin: 15rpx 0;
+}
+
+.body-service{
+  display: flex;
+  justify-content: space-between;
+}
+
+.body-service >text{
+  font-size: 40rpx;
+}
+
+.more{
+  font-size: 24rpx;
+}
+
+.more >text{
+  margin-right: 10rpx;
+}
+
+.service-wrap{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.service-item{
+  width: 40%;
+  margin: 20rpx 0 20rpx 0;
+  border-radius: 15rpx;
+}
+
+.service-item >image {
+  width: 100%;
+  border-radius: 15rpx;
+}
+/**
+玩乐详情
+*/
+.container-fun{
+
+}
+
+.container-fun >text{
+  font-size: 40rpx;
+}
+
+.fun-item{
+  display: flex;
+  justify-content: space-between;
+  margin: 10rpx;
+}
+
+.item-left{
+  margin: 10rpx;
+}
+
+.item-left >text{
+  font-size: 24rpx;
+  margin-left: 10rpx;
+}
+
+.item-right{
+  border: 1rpx solid;
+  border-radius: 15rpx;
+  padding: 8rpx 15rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24rpx;
+}
+
+.item-right >image{
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}

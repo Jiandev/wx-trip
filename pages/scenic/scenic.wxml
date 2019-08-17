@@ -1,0 +1,99 @@
+<view class="header">
+  <view class="top-title">
+    <text class="txt-title">成都.景点玩乐</text>
+    <text class="txt-scenic">青城山</text>
+    <i-tag class="i-tags" name="5A景区" color="green">
+      5A景区
+    </i-tag>
+  </view>
+  <view class="container-swiper">
+    <swiper indicator-dots='{{ true }}' indicator-color="rgba(200, 230, 180, .5)" indicator-active-color="#417346" autoplay='{{ true }}' interval='2500' duration='400' circular='{{ true }}'>
+      <swiper-item>
+        <image src='/assets/images/img_scenic.png' mode='widthFix'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='/assets/images/img_scenic.png' mode='widthFix'></image>
+      </swiper-item>
+      <swiper-item>
+        <image src='/assets/images/img_scenic.png' mode='widthFix'></image>
+      </swiper-item>
+    </swiper>
+  </view>
+</view>
+<view class="bg-color"></view>
+<view class="body">
+  <view class="top-line"></view>
+  <view class="body-content">
+    <view class="container-content">
+      <view class="top-menu">
+        <text>行程天数</text>
+        <text>价格区间</text>
+      </view>
+      <!-- 住宿 -->
+      <view class="body-item">
+        <view class="body-service">
+          <text>住宿</text>
+          <navigator url="" class="more">
+            <text>更多</text>
+            <i-icon type="enter" />
+          </navigator>
+        </view>
+        <view class="service-wrap">
+          <navigator class="service-item" url="" wx:for="{{2}}" wx:key="index">
+            <image mode='widthFix' src='/assets/images/img_scenic.png'></image>
+          </navigator>
+        </view>
+        <view>
+        </view>
+      </view>
+      <!-- 餐饮 -->
+      <view class="body-item">
+        <view class="body-service">
+          <text>餐饮</text>
+          <navigator url="" class="more">
+            <text>更多</text>
+            <i-icon type="enter" />
+          </navigator>
+        </view>
+        <view class="service-wrap">
+          <navigator class="service-item" url="" wx:for="{{2}}" wx:key="index">
+            <image mode='widthFix' src='/assets/images/img_food.png'></image>
+          </navigator>
+        </view>
+        <view>
+        </view>
+      </view>
+      <!-- 景点玩乐详情 -->
+      <view class="container-fun">
+        <text>景点玩乐详情</text>
+        <!-- 地址 -->
+        <view class="fun-item">
+          <view class="item-left">
+            <i-icon type="coordinates" size="20" />
+            <text>四川省成都市都江堰市</text>
+          </view>
+          <navigator url="" class="item-right">
+            <image mode="widthFix" src="/assets/images/ic_navigate.png"></image>
+            <text>导航</text>
+          </navigator>
+        </view>
+        <!-- 开放时间 -->
+        <navigator url = "" class="fun-item">
+          <view class="item-left">
+            <i-icon type="time" size="20" />
+            <text>开放时间</text>
+          </view>
+          <i-icon type="enter" />
+        </navigator>
+        <!-- 门票攻略 -->
+        <navigator url = "" class="fun-item">
+          <view class="item-left">
+            <i-icon type="coupons" size="20" />
+            <text>门票攻略</text>
+          </view>
+          <i-icon type="enter" />
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

@@ -28,7 +28,7 @@
     </view>
   </view>
   <view class="scenic-wrap">
-    <navigator class="scenic-item" url="" wx:for="{{5}}" wx:key="index">
+    <navigator class="scenic-item" url="/pages/scenic/scenic?title=青城山" wx:for="{{5}}" wx:key="index">
       <image mode='widthFix' src='/assets/images/img_scenic.png'></image>
       <text>青城山</text>
       <i-tag class="i-tags" name="5A景区" color="red" type="border">

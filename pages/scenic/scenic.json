@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "i-tag": "/iview/tag/index",
+    "i-icon": "/iview/icon/index"
+  },
+  "navigationBarTitleText": "景点"
+}
