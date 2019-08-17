@@ -1,2 +1,63 @@
-<!--pages/user/user.wxml-->
-<text>pages/user/user.wxml</text>
+<view class="bg-header">
+  <view class="header">
+    <view class="info">
+      <i-avatar src="https://i.loli.net/2017/08/21/599a521472424.jpg" size="large"></i-avatar>
+      <text>用户名</text>
+    </view>
+    <view class="bg-certification">
+      <text>实名认证</text>
+    </view>
+  </view>
+</view>
+<view class="body">
+  <view class="top-line"></view>
+  <view class="top-menu">
+    <navigator class="menu-item" url="">
+      <image class="img-menu-top" mode="aspectFit" src="/assets/images/ic_coupon.png"></image>
+      <text>优惠券</text>
+    </navigator>
+    <navigator class="menu-item" url="">
+      <image class="img-menu-top" mode="aspectFit" src="/assets/images/ic_order.png"></image>
+      <text>订单</text>
+    </navigator>
+    <navigator class="menu-item" url="">
+      <image class="img-menu-top" mode="aspectFit" src="/assets/images/ic_collection.png"></image>
+      <text>收藏</text>
+    </navigator>
+  </view>
+  <i-divider style="width:100%"></i-divider>
+  <view class="body-item">
+    <navigator class="menu-item" url="">
+      <image class="img-menu-default" mode="aspectFit" src="/assets/images/ic_lucky_money.png"></image>
+      <text>领红包</text>
+    </navigator>
+    <navigator class="menu-item" url="">
+      <image class="img-menu-default" mode="aspectFit" src="/assets/images/ic_recommend.png"></image>
+      <text>推荐小程序</text>
+    </navigator>
+    <navigator class="menu-item" url="">
+      <image class="img-menu-default" mode="aspectFit" src="/assets/images/ic_scan.png"></image>
+      <text>扫一扫</text>
+    </navigator>
+  </view>
+  <view class="body-item" style="margin-top:30rpx">
+    <navigator class="menu-item" url="">
+      <image class="img-menu-default" mode="aspectFit" src="/assets/images/ic_service.png"></image>
+      <text>联系客服</text>
+    </navigator>
+    <navigator class="menu-item" url="">
+      <image class="img-menu-default" mode="aspectFit" src="/assets/images/ic_help.png"></image>
+      <text>帮助中心</text>
+    </navigator>
+    <navigator class="menu-item" url="">
+      <image class="img-menu-default" mode="aspectFit" src="/assets/images/ic_message.png"></image>
+      <text>消息中心</text>
+    </navigator>
+  </view>
+  <i-divider style="width:100%"></i-divider>
+  <view class="bottom-item">
+    <navigator class="activity-item" url="">
+      <image mode="widthFix" src="/assets/images/img_activity.png"></image>
+    </navigator>
+  </view>
+</view>

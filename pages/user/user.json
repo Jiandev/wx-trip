@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "i-avatar": "/iview/avatar/index",
+    "i-divider": "/iview/divider/index"
+  },
+  "navigationBarBackgroundColor": "#4B8B6D",
+  "navigationBarTextStyle": "white"
 }
