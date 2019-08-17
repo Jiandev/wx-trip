@@ -1,9 +1,9 @@
 <view class="header">
-  <view class="place" bindtap="checkPlace">
+  <navigator class="place" url="/pages/place/place">
     <view class="text-line"></view>
     <text>成都</text>
     <i-icon type="unfold" size="25" color="#80848f" />
-  </view>
+  </navigator>
   <view class="temperature">
     <image src="/assets/images/ic_weather.png"></image>
     <view class="bg-temp">

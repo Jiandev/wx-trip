@@ -1,0 +1,30 @@
+<view class="search-wrap">
+  <image mode="aspectFit" src="/assets/images/ic_search.png"></image>
+  <input value="{{ place }}" placeholder="搜索目的地" placeholder-style="font-size:24rpx" confirm-type="search" bindconfirm="searchPlace"></input>
+</view>
+
+<view class="container-place">
+  <view class="body-item">
+    <view class="place-title">
+      <text class="title">热门</text>
+      <text class="desc">国内</text>
+    </view>
+    <view class="place-wrap">
+      <view class="bg-place" wx:for="{{8}}" wx:key="index">
+        <text>成都</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="body-item">
+    <view class="place-title">
+      <text class="title">热门</text>
+      <text class="desc">国外</text>
+    </view>
+    <view class="place-wrap">
+      <view class="bg-place" wx:for="{{8}}" wx:key="index">
+        <text>纽约</text>
+      </view>
+    </view>
+  </view>
+</view>

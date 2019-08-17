@@ -1,0 +1,60 @@
+.search-wrap {
+  display: flex;
+  border: 5rpx solid;
+  border-color: #74b190;
+  border-radius: 15rpx;
+  align-items: center;
+  margin: 30rpx 50rpx;
+}
+
+.search-wrap image {
+  width: 50rpx;
+  height: 50rpx;
+  margin: 10rpx;
+}
+
+.search-wrap input {
+  flex: 1;
+  margin-right: 15rpx;
+}
+/**
+目的地项
+*/
+.container-place{
+  margin: 60rpx 40rpx;
+}
+
+.body-item{
+  display: flex;
+  flex-direction: column;
+}
+
+.place-title{
+  margin: 30rpx;
+}
+
+.title{
+  font-size: 50rpx;
+  font-weight: 500;
+}
+
+.desc{
+  margin-left: 50rpx;
+}
+
+.place-wrap{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bg-place{
+  margin: 30rpx;
+  background-color: #6bc099;
+  border-radius: 15rpx;
+  padding: 5rpx 10rpx;
+  color: #ffffff;
+}
+
+.bg-place text{
+
+}
